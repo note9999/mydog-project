@@ -28,11 +28,11 @@
     		</tr>
     		<c:forEach var="vo" items="${list}">
     			<tr>
-    			<td>${vo.idx}</td>>
-    			<td>${vo.title}</td>>
-    			<td>${vo.writer}</td>>
-    			<td>${vo.indate}</td>>
-    			<td>${vo.count}</td>>
+    			<td>${vo.idx}</td>
+    			<td>${vo.title}</td>
+    			<td>${vo.writer}</td>
+    			<td>${vo.indate}</td>
+    			<td>${vo.count}</td>
     		</tr>
     		</c:forEach>
     	</table>
